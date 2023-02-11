@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #555;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    padding: 10px;
+}
+
+li {
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #555;
+}
+
+.line {
+    border-bottom: 3px solid #04CB58;
+}
+
+a:hover {
+    background-color: #04CB58;
+    color: #fff;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    margin: 5px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/titulinis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+
+}
+
+h1 {
+    width: 400px;
+    font-size: 70px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+header h1 {
+    width: 100%;
+    height: 90px;
+    color: white;
+    text-shadow: 2px 2px #04CB58;
+    font-size: 90px;
+    margin-top: 40vh;
+}
+
+
+
+button {
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #04CB58;
+    border-color: 2px solid #04CB58;
+    display: block;
+    margin: 200px auto;
+    color: white;
+    font-size: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #04CB58;
+}
+
+.balta {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+
+.tekstas,
+.kamuolys {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.kamuolys {
+    width: 300px;
+    height: 300px;
+}
+
+.tekstas {
+    width: 60%;
+    height: 300px;
+}
+
+h2 {   
+    text-align: left;
+}
+
+.line{
+    width: 100px;
+    border-bottom: 2px solid #04CB58;
+}
+
+p{
+    text-align: justify;
+    line-height: 25px;
+     margin: 20px 0;
+}
+
+.kamuolys{
+    width: 500px;
+    height: 300px;
+    background-image: url(img/kamuolys.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zalia{
+    width: 100%;
+    height: 300px;
+    background-color: #04CB58;
+    text-align: center;
+    padding: 50px;
+}
+
+.pastraipa{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    color: white;
+    line-height: 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+
+.foto1, .foto2, .foto3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pastraipa p{
+    line-height: 25px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.foto1{
+    background-image:url(img/Brazdeikis.jpg);
+}
+
+.foto2{
+    background-image: url(img/Lekavicius.jpg);
+}
+
+.foto3{
+    background-image: url(img/Ulanovas.jpg);
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-image:url(img/hale2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sluoksnis{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(100,100,100, 0.6);
+    padding-top: 100px;
+    
+}
+
+.sluoksnis p{
+    text-align: center;
+    color: white;
+}
+
